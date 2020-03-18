@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,300,200");
+@import url("https://fonts.googleapis.com/css?family=Muli:200,300,300i,400,700");
 
 /*
 	Halcyonic by HTML5 UP
@@ -23,6 +23,11 @@ section, summary, time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;}
+
+img .thisClass {
+	position: relative;
+	z-index: 100;
+}
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -72,6 +77,13 @@ input, select, textarea {
 }
 
 /* Basic */
+/* Material Icon from Google Styling as well */
+	.material-icons.md-48 { font-size: 48px; }
+
+	.material-icons.md-48.md-light { 
+		color: rgba(255, 255, 255, 1);
+		font-size: 48px;
+	 }
 
 	html {
 		box-sizing: border-box;
@@ -85,7 +97,7 @@ input, select, textarea {
 		background: #D4D9DD url("images/bg03.jpg");
 		color: #474f51;
 		font-size: 13.5pt;
-		font-family: 'Yanone Kaffeesatz';
+		font-family: 'Muli';
 		line-height: 1.85em;
 		font-weight: 300;
 	}
@@ -93,7 +105,7 @@ input, select, textarea {
 	input, textarea, select {
 		color: #474f51;
 		font-size: 13.5pt;
-		font-family: 'Yanone Kaffeesatz';
+		font-family: 'Muli';
 		line-height: 1.85em;
 		font-weight: 300;
 	}
@@ -1527,11 +1539,13 @@ input, select, textarea {
 			left: 0;
 			bottom: 35px;
 			font-size: 2.75em;
+
 		}
 
 			#header h1 a {
 				color: #fff;
 				text-decoration: none;
+				/* background-image: url("images/t13logo.svg"); */
 			}
 
 		#header nav {
@@ -1571,8 +1585,24 @@ input, select, textarea {
 		}
 
 		#banner p {
-			font-size: 2em;
+			font-size: 1em;
 			font-weight: 200;
+			line-height: 1.25em;
+			padding-right: 1em;
+			margin: 0 0 1em 0;
+		}
+		/* initialize customize */
+		#banner div .thicker {
+			font-size: 1em;
+			font-weight: 700;
+			line-height: 1.25em;
+			padding-right: 1em;
+			margin: 0 0 1em 0;
+		}
+
+		#banner div .thinner {
+			font-size: 1em;
+			font-weight: 400;
 			line-height: 1.25em;
 			padding-right: 1em;
 			margin: 0 0 1em 0;
