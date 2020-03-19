@@ -23,11 +23,39 @@ section, summary, time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;}
-
-img .thisClass {
-	position: relative;
-	z-index: 100;
-}
+/* FORM CSS */
+/* ======================================================================== */
+											
+											input[type=text], select, textarea {
+											  width: 100%;
+											  padding: 12px;
+											  border: 1px solid #ccc;
+											  border-radius: 4px;
+											  box-sizing: border-box;
+											  margin-top: 6px;
+											  margin-bottom: 16px;
+											  resize: vertical;
+											}
+											
+											input[type=submit] {
+											  background-color: #4CAF50;
+											  color: white;
+											  padding: 12px 20px;
+											  border: none;
+											  border-radius: 4px;
+											  cursor: pointer;
+											}
+											
+											input[type=submit]:hover {
+											  background-color: #45a049;
+											}
+											
+											.containerr {
+											  border-radius: 5px;
+											  background-color: #f2f2f2;
+											  padding: 20px;
+											}
+/* ================================================================================================================ */
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -1480,6 +1508,18 @@ input, select, textarea {
 			display: block;
 			width: 100%;
 		}
+
+		/* ========================================================================== */
+		.bordered-feature-image2 {
+			padding: 10px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+	
+			.bordered-feature-image2 img {
+				width: 80%;
+			}
+
 
 	.button-large {
 		background-image: -moz-linear-gradient(top, #ed391b, #ce1a00);
