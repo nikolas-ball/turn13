@@ -1517,8 +1517,22 @@ input, select, textarea {
 		}
 	
 			.bordered-feature-image2 img {
-				width: 80%;
+				width: 90%;
 			}
+		
+			.bordered-feature-image3 {
+				display: block;
+				background: #cfd4d8;
+				padding: 10px;
+				box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, 0.15);
+				margin: 0 0 1.5em 0;
+				outline: 0;
+			}
+		
+				.bordered-feature-image3 img {
+					display: block;
+					width: 100%;
+				}
 
 
 	.button-large {
