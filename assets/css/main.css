@@ -1642,6 +1642,11 @@ input, select, textarea {
 		}
 
 /* Banner */
+	/* ==================================================================================================== */
+	@media screen and (min-width: 0px) and (max-width: 1280px) {
+  		.secret { display: none; }   /* hide main paragraph on non computer devices :) */
+	}
+
 
 	#banner {
 		border-top: solid 1px #222628;
