@@ -1,3 +1,5 @@
+//credit to original template author for this js code || view .css file for credits
+
 (function($) {
 
 	/**
