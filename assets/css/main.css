@@ -108,6 +108,7 @@ input, select, textarea {
 /* Basic */
 /* Material Icon from Google Styling as well */
 	.material-icons.md-48 { font-size: 48px; }
+	.material-icons.md-44 { font-size: 44px; }
 
 	.material-icons.md-48.md-light { 
 		color: rgba(255, 255, 255, 1);
