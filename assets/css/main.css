@@ -1,10 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Muli:200,300,300i,400,700");
 
 /*
-	Original website theme deisgn and logic is based off of a template known as Halcyonic by "HTML5 UP".
-	It is deemed as free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-	
-	Customized extensively in 2020 by Nick Ball for Turn 13 Motorsports
+	Disclaimer:
+	Every asset customized extensively in 2020 by Nick Ball for Turn 13 Motorsports.
+	Images and facebook reviews are property of Turn 13 Motorsports.
+	Base website functionality and layout based on template that is deemed as free for personal and commercial use under the CCA 3.0 license provided by (html5up.net/license).
 */
 
 html, body, div, span, applet, object,
@@ -39,7 +39,7 @@ section, summary, time, mark, audio, video {
 											}
 											
 											input[type=submit] {
-											  background-color: #4CAF50;
+											  background-color: #a7f632;
 											  color: white;
 											  padding: 12px 20px;
 											  border: none;
