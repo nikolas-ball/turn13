@@ -1648,6 +1648,14 @@ input, select, textarea {
   		.secret { display: none; }   /* hide main paragraph on non computer devices :) */
 	}
 
+	/* gallery page */
+
+	@media screen and (max-width: 500px) {
+		#myCarousel .bootstrap-iso.carousel-inner img {
+			height: 600px;
+		}
+	}
+
 
 	#banner {
 		border-top: solid 1px #222628;
